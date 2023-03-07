@@ -1,0 +1,270 @@
+
+/*navbar*/
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+#navbar{
+   display:  flex;
+   height: 50px;
+  background-color: black;
+ 
+   
+    
+
+}
+
+   
+.list{
+    
+   margin: 10px;
+    list-style: none;
+    font-size: larger;
+    font: bold;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 20px;
+    display: block;
+    text-decoration: none;
+    font-family: serif;
+ 
+   
+
+  
+  
+}
+
+ul{
+    display: flex;
+ 
+  
+
+}
+   li:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+   
+}
+
+ /*section*/
+
+#home{
+    display: flex;
+    padding: 3px  400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    padding-top: 200px;
+    padding-bottom: 50px;
+  
+}
+#home{
+    background-image: url(https://cdn.pixabay.com/photo/2013/07/18/20/24/cheese-164872__340.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    height: 100%;
+    width: 100%;
+  
+}
+.contant{
+
+    font: bold;
+    font-size: 40px;
+    color: white;
+    font-family: serif;
+}
+
+.paragraph{
+
+    font: bold;
+    font-family:italic;
+    color: white;
+    font-size: medium;
+}
+
+ .btn{
+    border: 1px solid white;
+    border-radius: 1.5em;
+  
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    
+
+}
+ 
+ .btn:active{
+
+    background-color: rgb(200, 77, 77);
+    color: white;
+ }
+
+ /*section*/
+
+ .first{
+    display: flex;
+    margin: 20px;
+ }
+
+ .box{
+    border: 2px solid brown;
+    height: 350px;
+    text-align: center;
+    padding: 12px;
+    margin: 2px 8px;
+    border-radius: 1.5em;
+    background-color: rgb(250, 234, 234);
+    
+    
+  
+ }
+
+ .heading{
+    text-align: center;
+    margin-top: 20px;
+    font-family: serif;
+    font: bold;
+    font-size: 2.2rem;
+  
+ }
+ h2{
+    font: bold;
+    font-family: serif;
+    font-size: 30px;
+    margin: 5px;
+ 
+
+}
+
+
+/*container-tow*/
+
+.container-two{
+    height: 400px;
+}
+
+.upper-item::before{
+    
+    content: "";
+    background-image: url(https://img.freepik.com/free-photo/top-view-food-frame-with-copy-space_23-2148723447.jpg?size=626&ext=jpg&ga=GA1.2.1633030154.1667548916&semt=sph);
+   background-repeat: no-repeat;
+    height: 30%;
+   width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+    background-size: cover;
+}
+
+.upper-item{
+    
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   margin-top: 3px;
+ 
+
+}
+
+.item{
+     
+    align-items: center;
+   padding: 40px;
+   
+}
+
+.h-primery{
+    font: bold;
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: serif;
+    padding-bottom: 30px;
+  margin: 3px;
+  
+  
+  
+}
+
+.head{
+    margin-top: 10px;
+    font-size: 2.2rem;
+    text-align: center;
+    font:bold;
+    font-family: serif;
+    padding: 20px;
+    
+  
+}
+
+
+/*contact*/
+
+.contact{
+    position: relative;
+  
+
+}
+
+
+ 
+
+
+.contact-box{
+    display: flex;
+     padding-bottom: 20px;
+    background-image: url(./img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-items: center;
+     align-items: center;
+    padding-top: 20px;
+    
+
+}
+
+
+.contact-box input,
+.contact-box textarea{
+  
+   width: 100%;
+   padding: 0.5rem;
+   font-size: 1.1rem;
+   border-radius: 8px;
+   cursor: pointer;
+   
+
+}
+
+.contact-box form{
+    width: 40%;
+    margin-left: 50px;
+   
+}
+
+.contact-box label{
+    font-size: 1.3rem;
+    font-family: serif;
+    text-align: center;
+    margin-left: 8px;
+   
+}
+
+
+.center{
+    background-color: rgb(30, 29, 29);
+    color: white;
+    text-align: center;
+    padding: 20px ;
+   
+}
+
+body{
+    background-color: rgb(242, 242, 249);
+}
