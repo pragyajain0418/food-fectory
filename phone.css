@@ -1,0 +1,83 @@
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.box{
+    justify-content: center;
+    padding: 10px;
+    height: 380px;
+}
+
+
+#home{
+    display: flex;
+    padding-top: 100px;
+    padding: 40px 50px;
+   
+   height: auto;
+
+}
+
+
+#navbar{
+    align-items: center;
+    justify-content: center;
+
+}
+
+.list{
+    margin: 5px;
+    padding: 10px 10px;
+
+}
+
+
+
+
+
+.contant{
+    font-size: 40px;
+}
+
+.paragraph{
+    font-size: small;
+    padding:0px 60px  ;
+}
+
+.btn{
+    padding: 8px 20px;
+    font-size: large;
+}
+
+.h-primery{
+   margin-bottom: 60px;
+
+   margin-top: -15px;
+   
+}
+
+.head{
+    margin-top: 75px
+}
+
+.box{
+    margin-bottom: 25px;
+}
+
+
+.item{
+    padding: 10px;
+    overflow: hidden;
+
+}
+.item img{
+    height: 70px;
+}
+
+.upper-item ::before{
+    height: 10%;
+}
